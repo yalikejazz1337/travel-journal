@@ -33,7 +33,7 @@ nav {
 }
 
 .country {
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
 }
 
 .maps {
@@ -89,7 +89,9 @@ nav {
   align-items: center;
   gap: 20px;
 }
-
+.pin {
+  display: none;
+}
 /* responsive, if below 600px */
 @media (max-width: 600px) {
   .card--container {
