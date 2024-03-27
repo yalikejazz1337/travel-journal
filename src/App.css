@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -15,4 +16,76 @@ nav {
 .title {
   align-self: center;
   font-size: 1.3rem;
+}
+
+.card--container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+}
+
+.card--img {
+  width: 189px;
+  height: 252px;
+  border-radius: 14px;
+  float: left;
+}
+
+.country {
+  letter-spacing: 0.5px;
+}
+
+.maps {
+  text-decoration: underline;
+  color: grey;
+}
+
+.card--upper {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.card--content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+.pin {
+  width: 3%;
+  padding: 2px;
+}
+
+.date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card--title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card--divider {
+  width: 65%; /* Adjust width as desired */
+  height: 2px; /* Adjust thickness as needed */
+  background-color: lightgray;
+  margin-top: -10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
